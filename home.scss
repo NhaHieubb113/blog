@@ -1,0 +1,341 @@
+// p,a{
+//     color: white;
+// }
+// .chung{
+//     // background: url('/1280px-Flag_of_South_Korea.svg.png');
+//     background: red;
+// }
+// .top{
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     a{
+//         margin: 10px;
+//     }
+//     .left{
+//         display: flex;
+//         // justify-content: space-between;
+//         align-items: center;
+//         a, p{
+//             margin: 20px;
+//         }
+//         p{
+
+//         }
+//     }
+//     .right{
+//         .dn{
+//             padding-left: 10px;
+//             border-left: 1px solid red;
+//         }
+//     }
+// }
+// .bot{
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//     .left{
+//         a{
+//             img{
+//                 height: 100px;
+//                 width: 250px;
+//             }
+//         }
+//     }
+//     .center{
+//         .tren{
+//             input{
+//                 border: red solid 1px;
+//                 padding: 10px;
+//                 width: 800px;
+//             }
+            
+//         }
+//         .duoi{
+//             a{
+//                 margin: 20px;
+//             }
+//         }
+//     }
+//     .right{
+//         a{
+//             img{
+//                 height: 100px;
+//                 width: 250px;
+//             }
+//         }
+//     }
+// }
+
+
+// body{
+    
+// }
+.chungTren{
+    background: url(/imgs/h16.jpg) center;
+    height:100vh;
+    a,p,h1{
+        color: white;
+    
+    }
+    .top{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a{
+            margin: 20px;
+            text-decoration: none;
+        }
+        .gon{
+            width: 1300px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100px;
+            // .center{
+            //     a{
+            //         margin: 20px;
+            //         text-decoration: none;
+            //     }
+                
+            // }
+
+        }
+    }
+    .bot{
+        margin: 150px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 200px;
+        h1{
+            font-size: 30px;
+            margin: 10px;
+        }
+        button{
+            cursor: pointer;
+            //background: red ;
+            
+            margin: 50px;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;//bo vien tron
+        }
+    }
+}
+.chungDuoi{
+    // width: 100vw;
+    
+    .thanhTK{
+        // display: flex;
+        // align-items: center;
+        // justify-content: space-between;
+       // border: 1px solid black;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            color: black;
+            font-weight: bold;
+        }
+        input{
+            border: black solid 1px;
+            padding: 10px;
+            width: 750px;
+            margin: 50px;
+            border-radius: 10px;
+        }
+        button{
+            cursor: pointer;
+            background: red ;
+            //margin-left: 50px;//cach vật bên trái nó bao nhieu pixel ó
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            &:hover{//re chuot chuyen mau sang thuoc tinh khac
+                background: rgb(201, 87, 87);
+            }
+        }
+    }
+    .hinhTravel{
+        display: flex;
+        flex-wrap: wrap;//xuống dong khi đụng giới hạn khung
+        
+        .trai{
+            width: 60%;
+            .tren{
+                // width: 100vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    font-size: 30px;
+                    margin: 30px;
+                }
+            }
+            .flex{
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+               // width: 1200px;
+               .gomnua{
+
+                    width: 33%;
+                    .duoi{
+                        a{
+                            margin: 20px;
+                            img{
+                                height: 250px;
+                                width: 250px;
+                            }
+                            
+                            
+                        }
+                    }
+                
+                    .tieuDe{
+                        margin: 20px;
+                        a{
+                            font-size: 20px;
+                            font-weight: bold;
+                            text-decoration: none;
+                        }
+                    }   
+                }
+            }
+        }
+        .phai{
+            width: 30%;
+            margin: 0 auto;
+            margin-left: 100px;
+           
+            .chung{
+                width: 90%;
+                margin: 0 auto;//canh giúa
+                border: 2px solid rgb(204, 200, 200);
+      
+            }
+            .phai_top{
+                border: 2px solid  rgb(204, 200, 200);
+                height:15%;
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+                // p{
+                //     width: 50px;
+                //     padding: 16px 80px;
+                //     border: 2px solid  rgb(204, 200, 200);
+                // }
+            }
+
+            .phai_center{
+                margin: 5px auto;
+                border: 2px solid  rgb(204, 200, 200);
+                //height: 40%;
+                .gomnua{
+                
+                    .duoi{
+                        a{
+                            img{
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .tieuDe{
+                        a{
+                            font-size: 20px;
+                            font-weight: bold;
+                            text-decoration: none;
+                        }
+                    }   
+                }
+            }
+
+            .phai_bot{
+                border: 2px solid  rgb(204, 200, 200);;
+                //height:45%;
+                img{
+                   
+                    width: 100%;
+                    //height: 82%;
+                }
+                p{
+                    width: 100%;
+                    
+                }
+                
+            }
+
+        }  
+
+    }
+   
+    // .DsNhacXuHuong{
+    //     margin: 70px;
+    //     display: flex;
+    //     justify-content: center;
+    //     button{
+    //         background-color: red;
+    //         padding: 10px;
+    //         color: white;
+    //         cursor: pointer;//hien thi ban tay
+    //         }
+    // }
+//     .cuoi{
+//         display: flex;
+//         margin: 500;
+//         padding: 10px;
+//         background: white;
+
+//         .trai{
+//             img{
+//                 height: 500px;
+//                 width: 800px;
+//             }
+//         }
+//         .phai{
+//             padding: 150px;// khoang cach giua chu voi khung cua no
+//             h1{
+//                 margin-bottom: 10px;
+//                 font-weight: bold;
+//                 font-size: 20px;
+//         }
+//             }
+//             p{
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                 margin: center;
+//                 letter-spacing: 2px;//khoang cach giua chu trong tu
+//                 line-height: 28px;// khoang cach giua cac hang trong doan
+//             }
+//         }
+    }
+ .cuoiCung{
+        width: 100%;
+        //height: 15px;
+        padding: 15px;
+        background-color: rgb(132, 255, 255);
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 30px;
+        }   
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            letter-spacing: 2px;//khoang cach giua chu trong tu
+            line-height: 15px;// khoang cach giua cac hang trong doan
+        }
+}
+    
+
+

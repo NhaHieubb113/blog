@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin_home.css">
+    <title>Admin_home</title>
+</head>
+<body>
+    <div class = "chung">
+        <div class = "left">
+            
+                <br>
+                <li><a href="/admin_home.html">Bài Viết</a></li>
+                <hr>
+                <li><a href="/themBV.html">Thêm Bài viết</a></li>
+                <hr>
+                <li><a href="/qLyDanhMuc.html">Quản lý danh mục</a></li>
+                <hr>
+                <li><a href="/qLyTaiKhoan.html">Quản lý tài khoản</a></li>
+                <hr>
+                <li><a href="/guiMail.html">Gửi mail</a></li>
+                <hr>
+                <li><a href="/TTTKhoan.html">Thông tin tài khoản</a></li>
+                <hr>
+                <li><a href="user/home.htm">TRANG CHỦ</a></li>
+                <hr>
+                <li><a href="/login.html">Đăng Xuất</a></li>
+        </div>
+
+        <div class = "right">
+           
+            <table>
+                <h1>BÀI VIẾT</h1>
+                <tr>
+                    <th>Ảnh</th>
+                    <th>Danh Mục</th>
+                    <th>Tiêu Đề</th>
+                    <th>Nội Dung</th>
+                    <th>Thời Gian</th>
+                    <th>Thao tác</th>
+                </tr>
+                <!-- <c:forEach var="p" items="${list }"> -->
+                <tr>
+                    <td><a href="qLyBinhLuan.html"><img src="/imgs/h1.jpg" alt=""></a></td>
+                    <td>aaaaa</td>
+                    <td>aaaaa</td>
+                    <td>aaaaa</td>
+                    <td>aaaaa</td>
+                    <td>
+                        <div class="but">
+                            <a href="../admin/delete.htm?id=${p.id}">Xóa</a><a href="../admin/update.htm?idUpdate=${p.id}" id="sua">Sửa</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- </c:forEach> -->
+            </table>
+        </div>
+    </div>
+    
+</body>
+</html>

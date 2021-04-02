@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: url(imgs/h1.jpg);
+    // background-color: rgb(52, 51, 99);
+}
+
+.khungdangnhap{
+    background-color: white;
+    border: #333 solid 2px ;//net ve cua khung ve
+    width: 700px;//kichthuoc
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .phai{
+        .picture{
+            img{
+                width: 300px;
+            }
+
+            text-align: center;
+        }
+
+    }
+    .trai{
+        margin: 20px;//khoang cach giua 2 vat
+        display: flex; // tat ca nhung con cua no nam ngang
+        //align-items: center; //thanh hang ngang
+        //justify-content: center;//thanh hang ngan co khoang cach deu nhau
+        
+        form{
+            h1{
+                //text-align: center;// cho chu nam giua
+                font-size: 30px;// co chu
+            }
+            width: 250px;
+            // input:first-child{
+            //     margin-bottom: 30px;
+            // }
+            input{
+                margin-bottom: 15px;
+                padding: 5px;
+                border: 1px solid #05b993;
+                border-radius: 5px;
+            }
+            // a{
+            //     margin-top: 15px;
+            // }
+            button{
+                cursor: pointer;
+                margin-top: 20px;
+                background-color: rgb(60, 74, 199);
+                color: rgb(236, 234, 234);
+                &:hover{
+                    background-color: rgb(20, 25, 75);
+                }
+            }
+    
+        }
+            
+            
+    }
+
+}

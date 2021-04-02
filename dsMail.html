@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dsMail.css">
+    <title>dsMail</title>
+</head>
+<body>
+    <div class = "chung">
+        <div class = "left">
+
+                <br>
+                <li><a href="admin/home.htm">Bài Viết</a></li>
+                <hr>
+                <li><a href="admin/themBV.htm">Thêm Bài viết</a></li>
+                <hr>
+                <li><a href="admin/qldm.htm">Quản lý danh mục</a></li>
+                <hr>
+                <li><a href="admin/qlTaiKhoan.htm">Quản lý tài khoản</a></li>
+                <hr>
+                <li><a href="admin/send.htm">Gửi mail</a></li>
+                <hr>
+                <li><a href="admin/tttk.htm">Thông tin tài khoản</a></li>
+                <hr>
+                <li><a href="user/login.htm">Đăng Xuất</a></li>
+        </div>
+
+        <div class = "right">
+            <table>
+                <h1>LỊCH SỬ</h1>
+                   <tr>
+                      <th>MaBinhLuan</th>
+                      <th>Người nhận</th>
+                      <th>Tiêu Đề</th>
+                      <th>Nội Dung</th>
+                      <th>Thời Gian</th>
+                   </tr>
+                   <c:forEach var="u" items="${gm}">
+                      <tr>
+                          <td>${u.maMail}</td>
+                          <td>${u.nguoiNhan.taiKhoan}</td>
+                          <td>${u.tuaDe}</td>
+                          <td>${u.noiDung}</td>
+                          <td>${u.thoiGian}</td>
+                      </tr>
+                  </c:forEach>
+           </table>
+        </div>
+    </div>
+</body>
+</html>
